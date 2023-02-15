@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/gomega"
 )
 
-func Test_NegativeEmployeeIDTest(t *testing.T) {
+func Test_NegativeEmployeeTest(t *testing.T) {
 	g := NewGomegaWithT(t)
 
 	emp := Employee{
